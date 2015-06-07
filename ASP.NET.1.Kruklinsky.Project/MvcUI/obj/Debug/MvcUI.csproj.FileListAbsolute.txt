@@ -268,3 +268,7 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\ORM.pdb
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\obj\Debug\MvcUI.csprojResolveAssemblyReference.cache
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\obj\Debug\MvcUI.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\obj\Debug\MvcUI.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x64\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x86\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x86\SqlServerSpatial110.dll

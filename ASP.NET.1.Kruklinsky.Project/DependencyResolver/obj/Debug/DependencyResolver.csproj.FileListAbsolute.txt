@@ -144,3 +144,7 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\bin\Deb
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\obj\Debug\DependencyResolver.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\obj\Debug\DependencyResolver.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\DependencyResolver\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll

@@ -72,3 +72,7 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\ORM.p
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll

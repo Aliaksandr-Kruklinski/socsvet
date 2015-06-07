@@ -86,3 +86,7 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepos
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.csprojResolveAssemblyReference.cache
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.exe
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
