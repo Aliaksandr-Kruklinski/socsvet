@@ -38,6 +38,10 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\ORM.d
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\ORM.pdb
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\obj\Debug\ORM.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\obj\Debug\ORM.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\EntityFramework.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\EntityFramework.SqlServer.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\EntityFramework.xml
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\EntityFramework.SqlServer.xml
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\SqlServerTypes\x64\msvcr100.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\SqlServerTypes\x86\msvcr100.dll
