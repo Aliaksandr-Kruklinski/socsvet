@@ -63,3 +63,8 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Deb
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\Microsoft.SqlServer.Types.dll

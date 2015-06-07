@@ -272,3 +272,4 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x86\msvcr100.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\MvcUI\bin\Microsoft.SqlServer.Types.dll
