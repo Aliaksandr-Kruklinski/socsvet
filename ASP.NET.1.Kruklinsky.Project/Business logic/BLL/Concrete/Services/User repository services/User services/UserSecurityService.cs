@@ -26,7 +26,7 @@ namespace BLL.Concrete
             using (var context = dbContextScopeFactory.CreateReadOnly())
             {
                 var user = this.repository.GetUserByEmail(email);
-                if (user != null)
+                if (user != null && user.IsApproved)
                 {
                     result = passwordComparer.Equals(user.Password, password);
                 }

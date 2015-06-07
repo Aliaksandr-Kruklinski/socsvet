@@ -14,8 +14,8 @@ namespace MvcUI.Providers.Concrete
     {
         private Regex emailValidationRegex = new Regex(@"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}");
 
-        private string verifyUrl = "http://localhost:3868//Verify/Verify";
-
+        private string verifyUrl = "http://socsvet.azurewebsites.net/Verify/Verify";
+        
         public EmailVerifyProvider(string verifyUrl)
         {
             this.verifyUrl = verifyUrl;
