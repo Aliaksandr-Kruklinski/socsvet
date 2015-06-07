@@ -72,3 +72,17 @@ C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Proje
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.csprojResolveAssemblyReference.cache
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.exe
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\QuestionRepositoryTest.exe.config
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\QuestionRepositoryTest.exe
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\QuestionRepositoryTest.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\AmbientDbContext.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\DAL.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\DAL.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\ORM.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\AmbientDbContext.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\DAL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\DAL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\bin\Debug\ORM.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.csprojResolveAssemblyReference.cache
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.exe
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\QuestionRepositoryTest\obj\Debug\QuestionRepositoryTest.pdb

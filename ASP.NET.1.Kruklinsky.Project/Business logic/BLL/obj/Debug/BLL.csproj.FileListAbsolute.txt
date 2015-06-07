@@ -50,3 +50,16 @@ C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Proje
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.dll
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\BLL.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\BLL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\AmbientDbContext.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\BLL.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\DAL.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\EntityFramework.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\AmbientDbContext.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\DAL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\BLL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\bin\Debug\EntityFramework.xml
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL\obj\Debug\BLL.pdb

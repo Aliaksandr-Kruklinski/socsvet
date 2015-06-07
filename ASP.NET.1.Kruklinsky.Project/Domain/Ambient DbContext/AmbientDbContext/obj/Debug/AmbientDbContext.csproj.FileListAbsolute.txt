@@ -46,3 +46,15 @@ C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Proje
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\obj\Debug\AmbientDbContext.csprojResolveAssemblyReference.cache
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\obj\Debug\AmbientDbContext.dll
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\obj\Debug\AmbientDbContext.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\AmbientDbContext.dll.config
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\AmbientDbContext.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\AmbientDbContext.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\AmbientDbContext.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\EntityFramework.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\EntityFramework.SqlServer.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\AmbientDbContext.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\EntityFramework.xml
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\bin\Debug\EntityFramework.SqlServer.xml
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\obj\Debug\AmbientDbContext.csprojResolveAssemblyReference.cache
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\obj\Debug\AmbientDbContext.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext\obj\Debug\AmbientDbContext.pdb

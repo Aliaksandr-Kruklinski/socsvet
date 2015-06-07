@@ -72,3 +72,17 @@ C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Proje
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\obj\Debug\TestRepositoryTest.csprojResolveAssemblyReference.cache
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\obj\Debug\TestRepositoryTest.exe
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\obj\Debug\TestRepositoryTest.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\TestRepositoryTest.exe.config
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\TestRepositoryTest.exe
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\TestRepositoryTest.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\AmbientDbContext.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\DAL.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\DAL.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\ORM.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\AmbientDbContext.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\DAL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\DAL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\bin\Debug\ORM.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\obj\Debug\TestRepositoryTest.csprojResolveAssemblyReference.cache
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\obj\Debug\TestRepositoryTest.exe
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Tests\TestRepositoryTest\obj\Debug\TestRepositoryTest.pdb

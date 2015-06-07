@@ -60,3 +60,15 @@ C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Proje
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.dll
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\DAL.dll.config
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\DAL.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\DAL.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\AmbientDbContext.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\DAL.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\ORM.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\AmbientDbContext.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\DAL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\bin\Debug\ORM.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL\obj\Debug\DAL.pdb

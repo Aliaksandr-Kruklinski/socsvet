@@ -16,3 +16,7 @@ C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Proje
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.dll
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.pdb
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\bin\Debug\BLL.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\bin\Debug\BLL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.pdb

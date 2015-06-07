@@ -37,3 +37,12 @@ C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Proje
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.dll
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.pdb
 C:\Users\Александр\Desktop\Diploma\ProjectV2\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.csprojResolveAssemblyReference.cache
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\AmbientDbContext.Interface.dll.config
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\AmbientDbContext.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\AmbientDbContext.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\EntityFramework.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\EntityFramework.SqlServer.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\EntityFramework.xml
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\EntityFramework.SqlServer.xml
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.pdb
