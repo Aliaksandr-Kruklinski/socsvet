@@ -142,14 +142,14 @@ namespace MvcUI.Providers.Concrete
                 smtpClient.UseDefaultCredentials = false;
                 smtpClient.EnableSsl = true;
                 smtpClient.Credentials = new NetworkCredential(username, password);
-                try
-                {
+                //try
+                //{
                     smtpClient.Send(message);
-                }
-                catch (System.Net.Mail.SmtpException e)
-                {
-                    string errorMessage = e.Message;
-                }
+                //}
+                //catch (System.Net.Mail.SmtpException e)
+                //{
+                //    string errorMessage = e.Message;
+                //}
             }
         }
 

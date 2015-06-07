@@ -24,3 +24,4 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL.Interface\bin\D
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL.Interface\bin\Debug\DAL.Interface.pdb
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL.Interface\obj\Debug\DAL.Interface.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL.Interface\obj\Debug\DAL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\DAL.Interface\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache

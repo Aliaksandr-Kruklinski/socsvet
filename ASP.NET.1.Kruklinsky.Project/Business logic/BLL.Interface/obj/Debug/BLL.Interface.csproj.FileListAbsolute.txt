@@ -20,3 +20,4 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interfa
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\bin\Debug\BLL.Interface.pdb
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Business logic\BLL.Interface\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
