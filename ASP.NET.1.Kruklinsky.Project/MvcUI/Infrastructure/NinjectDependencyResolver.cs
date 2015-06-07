@@ -18,7 +18,7 @@ namespace MvcUI.Infrastructure
         {
             base.Load();
             Bind<IAuthProvider>().To<FormsAuthProvider>();
-            Bind<IVerifyProvider>().To<EmailVerifyProvider>().WithConstructorArgument("verifyUrl","http://localhost:3868//Verify/Verify");
+            Bind<IVerifyProvider>().To<EmailVerifyProvider>().WithConstructorArgument("verifyUrl", "http://socsvet.azurewebsites.net/Verify/Verify");
             Bind<ITestSessionFactory>().To<TestSessionFactory>();
         }
     }

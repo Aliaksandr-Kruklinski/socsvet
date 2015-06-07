@@ -46,3 +46,4 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\A
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\bin\Debug\EntityFramework.SqlServer.xml
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.pdb
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\Ambient DbContext\AmbientDbContext.Interface\obj\Debug\AmbientDbContext.Interface.csprojResolveAssemblyReference.cache
