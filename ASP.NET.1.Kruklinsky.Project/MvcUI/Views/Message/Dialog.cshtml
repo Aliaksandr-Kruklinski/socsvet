@@ -1,0 +1,90 @@
+﻿@model MvcUI.Models.MessagePagingModel
+
+@section Links
+{
+    @Styles.Render("~/Content/home/css")
+}
+@section scripts
+{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+
+@{
+    ViewBag.Title = "Dialog";
+}
+
+<div id="Messages">
+    @foreach (var m in Model.Messages)
+    {
+        <div class="Message stroke">
+            <div class="SenderIcon">
+                <img class="Avatar" style="width:75px; height:75px " src="@Url.Action("GetAvatar", "Wall", new { userID =@m.User.Id })" />
+            </div>
+            <div class="Text">@m.Text</div>
+            <div class="Time">
+                <div class="SendDay">@m.Time.ToString("dd.MM.yy")</div>
+                <div class="SendTime">@m.Time.ToString("HH:mm:ss")</div>
+            </div>
+        </div>
+
+    }
+</div>
+
+<div id="NewMessage">
+    <div class="Message stroke">
+        <div class="SenderIcon">
+            <img class="Avatar" style="width:75px; height:75px " src="@Url.Action("GetAvatar", "Wall", new { userID = @Membership.GetUser(User.Identity.Name).ProviderUserKey })" />
+        </div>
+        <div class="Text">
+            @using (Ajax.BeginForm("AddMessage", "Message", new AjaxOptions { InsertionMode = InsertionMode.Replace, UpdateTargetId = "dane", OnSuccess="clear()" }))
+            {
+                <input type="hidden" name="dialogId" value="@Model.DilogId" />
+                <input type="hidden" name="userId" value="@Membership.GetUser(User.Identity.Name).ProviderUserKey" />
+                <input id="text" type="text" name="text" value="" />
+                <input class="btn btn-inverse" type="submit" value="Отправить" onclick="addMessage('@Membership.GetUser(User.Identity.Name).ProviderUserKey')"/>
+            }
+            <div id="dane">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function clear() {
+        document.getElementById("text").value = "";
+    }
+    function isEmpty(str) {
+            return (str.length === 0 || !str.trim());
+    }
+
+    function addMessage(userId) {
+        var messages = document.getElementById("Messages");
+        var newMessage = document.getElementById("NewMessage");
+
+        var divMessage = document.createElement("div");
+        divMessage.className = "Message stroke";
+
+        var divSender = document.createElement("div");
+        divSender.className = "SenderIcon";
+        var icon = newMessage.getElementsByClassName("SenderIcon")[0];
+        divSender.innerHTML = icon.innerHTML;
+
+        var divText = document.createElement("div")
+        divText.className = "Text";
+        divText.innerHTML = document.getElementById("text").value;
+
+        if (!isEmpty(divText.innerHTML)) {
+            divMessage.appendChild(divSender);
+            divMessage.appendChild(divText);
+            messages.appendChild(divMessage);
+        }
+
+    }
+</script>
+
+

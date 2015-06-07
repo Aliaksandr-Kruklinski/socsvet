@@ -1,0 +1,18 @@
+﻿@section Links
+{
+    @Styles.Render("~/Content/verify/css")
+}
+
+@{
+    ViewBag.Title = "Sign Up is completed";
+}
+
+<div class="stroke">
+    <div class="description">
+        <h2>Рады вас приветствовать!!!</h2>
+        <p>Подтвердите пожалуйста свой почтовый ящик.</p>
+    </div>
+    <br />
+    <br />
+    <p>Мы послали приглашение: <a href="http://www.@ViewBag.userHost">@ViewBag.userEmail</a>. (нажми меня)</p>
+</div>

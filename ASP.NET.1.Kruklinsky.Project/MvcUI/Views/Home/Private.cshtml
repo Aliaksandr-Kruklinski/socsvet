@@ -1,0 +1,42 @@
+﻿@model MvcUI.Models.Membership.Profile
+
+@section Links
+{
+    @Styles.Render("~/Content/home/css")
+}
+@section scripts
+{
+    @Scripts.Render("~/Content/admin/js")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+@{
+    ViewBag.Title = "Private";
+}
+
+<div id="Wall">
+    <div id="Messages">
+        @{
+            Html.RenderAction(
+                 "PrivateList",
+                 "Wall",
+                 new
+                 {
+                     controllerName = "Home",
+                     userId = @Membership.GetUser(User.Identity.Name) == null ? -1 : @Membership.GetUser(User.Identity.Name).ProviderUserKey,
+                     page = ViewBag.SelectedPage
+                 }
+            );
+        }
+        @using (Html.BeginForm())
+        {
+            @Html.EditorFor(m => m.FirstName)
+            <input type="submit" value="Отправить" />
+        }
+    </div>
+</div>
+
+
+

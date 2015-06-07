@@ -1,0 +1,48 @@
+﻿@model MvcUI.Models.WallMessagePagingModel
+
+@{
+    ViewBag.Title = "PrivateMessages";
+}
+
+<script>
+    function publishMessage(node) {
+        var parrent = node.parentNode.parentNode;
+        var text = parrent.getElementsByClassName("Text")[0];
+
+        if (confirm("Вы действительно хотите обуплиховать : " + text.innerHTML)) {
+            var result = {
+                FirstName: text.innerHTML
+            }
+            $.ajax({
+                type: "POST",
+                url: "Index",
+                data: JSON.stringify(result),
+                contentType: 'application/json; charset=utf-8'
+            });
+            window.location.href = "Index";
+        }
+        
+    }
+</script>
+
+@foreach (var m in Model.WallMessages)
+{
+    <div class="Message stroke">
+        <div class="SenderIcon">
+            <img class="Avatar" style="width:75px; height:75px " src="@Url.Action("GetAvatar", "Wall", new { userID =@m.UserId })" />
+        </div>
+        <div class="Text">@m.Text</div>
+        <div class="Time">
+            <div class="SendDay">@m.Time.ToString("dd.MM.yy")</div>
+            <div class="SendTime">@m.Time.ToString("HH:mm:ss")</div>
+        </div>
+        <div style="text-align:right">
+            <a style="text-decoration: none; color: black; cursor:pointer;" onclick="publishMessage(this)">Опуиликовать</a>
+        </div>
+    </div>
+
+}
+
+<div class="PageLinks">
+    @Html.PageLinks(Model.Paginglnfo, x => Url.Action("Private", Model.Paginglnfo.ControllerName, new { page = x }))
+</div>

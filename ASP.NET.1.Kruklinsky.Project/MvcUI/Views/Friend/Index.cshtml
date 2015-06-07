@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MvcUI.Models.Guest>
+
+@section Links
+{
+    @Styles.Render("~/Content/home/css")
+}
+
+@{
+    ViewBag.Title = "Friends";
+}
+
+@foreach (var user in Model)
+{ 
+    
+    <div class="Friend stroke">
+        <div class="Time">
+            <div class="SendDay">@user.Profile.FirstName</div>
+            <div class="SendTime">@user.Profile.SecondName</div>
+        </div>
+        <div class ="SenderIcon">
+            <a href="@Url.Action("Index", "Guest", new { userId = @user.UserId })">
+
+                <img class="Avatar" style="width:75px; height:75px; cursor:pointer;" src="@Url.Action("GetAvatar", "Wall", new { userID =@user.UserId })" />
+            </a>
+        </div>
+    </div>
+}

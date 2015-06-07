@@ -1,0 +1,23 @@
+﻿DIV#Menu {
+    float: left;
+    width: 8em;
+    padding: .3em;
+}
+    DIV#Menu A{
+        font: bold-1.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+        display: block;
+        text-decoration: none;
+        padding: .6em;
+        color: Black;
+        border-bottom: 1px solid silver;
+    }
+        DIV#Menu A.selected {
+            background-color: #666;
+            color: White;
+        }
+            DIV#Menu A.selected:hover{
+                background-color: #666;
+            }
+        DIV#Menu A:hover{
+            background-color: #CCC;
+        }

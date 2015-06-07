@@ -1,0 +1,24 @@
+﻿@model MvcUI.Models.MessageModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="display:block;">
+
+    @foreach (var m in Model.Dilogs)
+    {
+        <div class="Message stroke" style="margin: 10px;">
+            <div style="display:inline-block;">
+                <a href="@Url.Action("Dialog", "Message", new { id = @m.Id})">
+                    <img class="" style="width:75px; height:75px;" src="@Url.Action("GetAvatar", "Wall", new { userID =@m.Users.First().Id})" />
+                </a>
+            </div>
+            <div style="display:inline-block;">
+                <div class="SendDay">@m.Users.First().Profile.FirstName</div>
+                <div class="SendTime">@m.Users.First().Profile.SecondName</div>
+            </div>
+        </div>
+    }
+
+</div>

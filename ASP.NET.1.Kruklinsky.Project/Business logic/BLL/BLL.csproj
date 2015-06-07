@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3022DCE-B0E8-40DD-840C-489CDE33DD44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Concrete\Exceptions helpers\AnswerExceptionsHelper.cs" />
+    <Compile Include="Concrete\Exceptions helpers\QuestionExceptionsHelper.cs" />
+    <Compile Include="Concrete\Exceptions helpers\ResultExceptionsHelper.cs" />
+    <Compile Include="Concrete\Exceptions helpers\RoleExceptionsHelper.cs" />
+    <Compile Include="Concrete\Exceptions helpers\SubjectExceptionsHelper.cs" />
+    <Compile Include="Concrete\Exceptions helpers\TestExceptionsHelper.cs" />
+    <Compile Include="Concrete\Exceptions helpers\UserExceptionsHelper.cs" />
+    <Compile Include="Concrete\Mapping\KnowledgeMap.cs" />
+    <Compile Include="Concrete\Mapping\MembershipMap.cs" />
+    <Compile Include="Concrete\Mapping\MessageMap.cs" />
+    <Compile Include="Concrete\Mapping\TestMap.cs" />
+    <Compile Include="Concrete\Mapping\WallMap.cs" />
+    <Compile Include="Concrete\Services\Message repository services\MessageService.cs" />
+    <Compile Include="Concrete\Services\Question repository services\Answers services\AnswersQueryService.cs" />
+    <Compile Include="Concrete\Services\Question repository services\Answers services\QuestionAnswersManagmentService.cs" />
+    <Compile Include="Concrete\Services\Question repository services\Question services\QuestionCreationService.cs" />
+    <Compile Include="Concrete\Services\Question repository services\Question services\QuestionQueryService.cs" />
+    <Compile Include="Concrete\Services\RepositoryService.cs" />
+    <Compile Include="Concrete\Services\Result repository services\ResultQueryService.cs" />
+    <Compile Include="Concrete\Services\Result repository services\TestingService.cs" />
+    <Compile Include="Concrete\Services\Test repository services\TestCreationService.cs" />
+    <Compile Include="Concrete\Services\Test repository services\TestQueryService.cs" />
+    <Compile Include="Concrete\Services\Test repository services\TestQuestionsManagementService.cs" />
+    <Compile Include="Concrete\Services\User repository services\Image services\ImageService.cs" />
+    <Compile Include="Concrete\Services\User repository services\Profile services\ProfileService.cs" />
+    <Compile Include="Concrete\Services\User repository services\Role services\RoleQueryService.cs" />
+    <Compile Include="Concrete\Services\User repository services\Role services\UserRolesManagementService.cs" />
+    <Compile Include="Concrete\Services\User repository services\Role services\UserRolesQueryService.cs" />
+    <Compile Include="Concrete\Services\Subject repository services\SubjectCreationService.cs" />
+    <Compile Include="Concrete\Services\Subject repository services\SubjectQueryService.cs" />
+    <Compile Include="Concrete\Services\User repository services\User services\UserCreationService.cs" />
+    <Compile Include="Concrete\Services\User repository services\User services\UserQueryService.cs" />
+    <Compile Include="Concrete\Services\User repository services\User services\UserSecurityService.cs" />
+    <Compile Include="Concrete\Services\User repository services\EmailService.cs" />
+    <Compile Include="Concrete\Services\Wall repository services\WallService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Ambient DbContext\AmbientDbContext.Interface\AmbientDbContext.Interface.csproj">
+      <Project>{47cad024-1f6e-4b70-a730-b42c592763b4}</Project>
+      <Name>AmbientDbContext.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Domain\DAL.Interface\DAL.Interface.csproj">
+      <Project>{dbe3a9b7-aec9-4fd0-a9e9-195f4f0f7c48}</Project>
+      <Name>DAL.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL.Interface\BLL.Interface.csproj">
+      <Project>{0b858c0b-52ba-49f2-bc35-9810630e188a}</Project>
+      <Name>BLL.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

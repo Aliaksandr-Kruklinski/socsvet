@@ -1,0 +1,30 @@
+﻿@model MvcUI.Models.SignUpModel
+
+@section Links
+{
+    @Styles.Render("~/Content/signup/css")
+}
+@section scripts
+{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}
+@{
+    ViewBag.Title = "Sign Up";
+}
+
+<div class="stroke">
+
+    <div class="description">
+        <h2>Создание нового аккаунта</h2>
+        <p>Используйте форму ниже для того чтобы найти секретный ингредиент</p>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        @Html.EditorForModel()
+        <br />
+        <input class="btn btn-inverse" type="submit" value="Register" />
+    }
+</div>

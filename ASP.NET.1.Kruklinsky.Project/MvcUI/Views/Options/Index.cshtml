@@ -1,0 +1,101 @@
+﻿@model MvcUI.Models.Membership.Profile
+
+@section Links
+{
+    @Styles.Render("~/Content/home/css")
+}
+
+@section scripts
+{
+@Scripts.Render("~/Content/home/js")
+}
+
+@{
+    ViewBag.Title = String.Format("{0} {1}", 
+        Model.FirstName == null ? "FirstName" : Model.FirstName, 
+        Model.SecondName == null ? "SecondName" : Model.SecondName);
+}
+
+@using (Html.BeginForm("Index", "Options", FormMethod.Post, new { enctype = "multipart/form-data" })) {
+    <div id ="UserName"> 
+            @Html.EditorFor(m => m.FirstName)
+            @Html.TextBoxFor(m => m.SecondName)
+            @Html.EditorFor(m => m.Birthday)
+    </div>
+    <div id="AvatarEditor">
+        <a>Avatar: </a>
+        <div id="Avatar">
+            <img id="td" class="Avatar" src="@Url.Action("GetAvatar", "Options")" />
+            <input class="stroke" type="file" id="files" name="Image" onchange="show('block')" />
+        </div>
+    </div>
+    <input id="Save" type="submit" value="Save" />
+     <input type="hidden" name="x1" value="" />
+  <input type="hidden" name="y1" value="" />
+  <input type="hidden" name="x2" value="" />
+  <input type="hidden" name="y2" value="" />
+}
+
+
+<div onclick="show('none')" id="wrap"></div>
+<div id="window">
+</div>
+
+<script type="text/javascript">
+
+    function clear(node) {
+        while (node.firstChild) {
+            node.removeChild(node.firstChild);
+        }
+    }
+    function show(state) {
+        if (state == "none") {
+            document.getElementById("Save").click();
+        } else 
+        {
+            document.getElementById('window').style.display = state;
+            document.getElementById('wrap').style.display = state;
+        }
+    }
+
+    function showFile(e) {
+        var files = e.target.files;
+        for (var i = 0, f; f = files[i]; i++) {
+            if (!f.type.match('image.*')) continue;
+            var fr = new FileReader();
+            fr.onload = (function (theFile) {
+                return function (e) {
+                    var result = document.createElement('div');
+                    var parent = document.getElementById('window');
+                    clear(parent);
+                    result.innerHTML = "<img id = 'ladybug' src='" + e.target.result + "' width = '" + (parent.offsetWidth - 30) + "' height = '" + (parent.offsetHeight - 30 - 30) + "' />";
+                    parent.appendChild(result);
+
+                    var save = document.createElement("input");
+                    save.className = "btn btn-inverse";
+                    save.type = "submit";
+                    save.name = "submit";
+                    save.value = "сохранить";
+                    save.addEventListener("click", function () { show("none") }, false);
+                    parent.appendChild(save);
+
+                    $('#ladybug').imgAreaSelect({ maxWidth: 400, maxHeight: 400, handles: true });
+                    $('#ladybug').imgAreaSelect({
+                        onSelectEnd: function (img, selection) {
+                            $('input[name="x1"]').val(selection.x1);
+                            $('input[name="y1"]').val(selection.y1);
+                            $('input[name="x2"]').val(selection.x2);
+                            $('input[name="y2"]').val(selection.y2);
+                        }
+                    });
+                };
+            })(f);
+
+
+            fr.readAsDataURL(f);
+        }
+    }
+
+    document.getElementById('files').addEventListener('change', showFile, false);
+
+</script>

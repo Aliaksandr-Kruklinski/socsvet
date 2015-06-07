@@ -1,0 +1,67 @@
+﻿@model MvcUI.Models.Guest
+
+@section Links
+{
+    @Styles.Render("~/Content/home/css")
+}
+@section scripts
+{
+    @Scripts.Render("~/Content/admin/js")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+@{
+    ViewBag.Title = "Guest";
+}
+
+<div id="Wall">
+    <div id="Info">
+        <div id="Results">
+        </div>
+        <div id="user-info">
+            <div id="user-info-names">
+                <a class="first-name">@Model.Profile.FirstName</a>
+                <a class="second-name">@Model.Profile.SecondName</a>
+            </div>
+            <div id="user-info-avatar" class="Avatar">
+                <img class="Avatar" src="@Url.Action("GetAvatar", "Wall", new { userId = @Model.UserId })" />
+            </div>
+            <div id="user-info-additional">
+                @if (Model.Profile.Birthday.HasValue)
+                {
+                    <a class="birthday">@Model.Profile.Birthday.Value.ToString("dd.MM.yyyy")</a>
+                }
+            </div>
+            <div id="user-info-actions">
+                <a href="@Url.Action("AddDialog", "Message", new { userId = @Model.UserId })">Послать сообщение</a>
+            </div>
+        </div>
+    </div>
+    <div id="Messages">
+        @{
+            Html.RenderAction(
+                 "List",
+                 "Wall",
+                 new
+                 {
+                     controllerName = "Guest",
+                     userId = @Model.UserId,
+                     page = ViewBag.SelectedPage
+                 }
+            );
+        }
+        @if(User.Identity.IsAuthenticated)
+        { 
+            using (Html.BeginForm())
+            {
+                @Html.EditorFor(m => m.Profile.FirstName)
+                <input type="submit" value="Отправить" />
+            }
+        }
+    </div>
+</div>
+
+
+

@@ -1,0 +1,31 @@
+﻿@model MvcUI.Models.Menu
+
+
+@section Links
+{
+    @Styles.Render("~/Content/menu/css")
+}
+
+@{
+    Layout = null;
+}
+
+<div class="stroke">
+    @foreach (var link in Model.LinksInfo)
+    {
+        @Html.RouteLink(
+        link.LinkText,
+        new
+        {
+            controller = link.ControllerName,
+            action = link.ActionName,
+            selectedLink = Model.LinksInfo.IndexOf(link)
+        },
+        new
+        {
+            @class = Model.LinksInfo.IndexOf(link) == Model.SelectedLink ? "selected" : null,
+            @style = Model.LinksInfo.IndexOf(link) == Model.LinksInfo.Count - 1 ? "border-bottom: 0px" : null
+        }
+    );
+    }
+</div>

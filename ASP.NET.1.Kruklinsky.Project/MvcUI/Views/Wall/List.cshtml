@@ -1,0 +1,24 @@
+﻿@model MvcUI.Models.WallMessagePagingModel
+
+@{
+    ViewBag.Title = "Messages";
+}
+
+@foreach (var m in Model.WallMessages)
+{
+<div class="Message stroke">
+    <div class ="SenderIcon">
+        <img class="Avatar" style="width:75px; height:75px " src="@Url.Action("GetAvatar", "Wall", new { userID =@m.UserId })" />
+    </div>
+    <div class="Text">@m.Text</div>
+    <div class="Time">
+        <div class="SendDay">@m.Time.ToString("dd.MM.yy")</div>
+        <div class="SendTime">@m.Time.ToString("HH:mm:ss")</div>
+    </div>
+</div>
+    
+}
+
+<div class="PageLinks">
+    @Html.PageLinks(Model.Paginglnfo, x => Url.Action("Index", Model.Paginglnfo.ControllerName, new { page = x }))
+</div>

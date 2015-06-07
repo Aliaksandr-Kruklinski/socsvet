@@ -1,0 +1,49 @@
+﻿@model MvcUI.Models.UserResults
+
+@{
+    ViewBag.Title = "User results";
+}
+
+<div class="stroke">
+    <div id="time"></div>
+    <div class="testing">
+        <h1>@Model.Test.Name: @Model.Test.Topic</h1>
+        <br />
+            @for (int i = 0; i < @Model.Test.Questions.Count(); i++)
+            {
+                <div class="question">
+                    @Html.HideImage(@Model.Questions[i].Question.Id)
+                    <label>@Model.Questions[i].Question.Text</label>
+                    <div id="@Model.Questions[i].Question.Id">
+                        @if (@Model.Questions[i].Question.Example != null)
+                        {
+                            <textarea readonly rows="5">@Model.Questions[i].Question.Example</textarea>
+                        }
+                        <div class="answers">
+                            @for (int j = 0; j < @Model.Answers[i].UserAnswers.Count(); j++)
+                            {
+                                @Html.EditorFor(m => m.Answers[i].UserAnswers[j].UserAnswer, new { @class = "useranswer" })
+                                @Html.DisplayFor(m => m.Answers[i].UserAnswers[j].Text)
+                                <br />
+                            }
+                        </div>
+                    </div>
+                </div>
+                <br />
+            }
+
+        @using (Ajax.BeginForm("SetResultDescription", "Result", new AjaxOptions { OnSuccess = "clear()" }))
+        {
+            <input type="hidden" name="id" value="@Model.Result.Id" />
+            <input id="text" type="text" name="description" value="" />
+            <input class="btn btn-inverse" type="submit" value="Отправить" />
+        }
+    </div>
+</div>
+
+<script>
+    function clear() {
+        document.getElementById("text").value = "";
+    }
+</script>
+

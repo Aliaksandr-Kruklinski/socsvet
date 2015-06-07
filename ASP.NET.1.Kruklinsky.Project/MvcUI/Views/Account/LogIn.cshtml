@@ -1,0 +1,27 @@
+﻿@model MvcUI.Models.LogInModel
+@section Links
+{
+    @Styles.Render("~/Content/login/css")
+}
+@section scripts
+{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}
+@{
+    ViewBag.Title = "Log In";
+}
+
+<div class="stroke">
+
+    <div class="description">
+        <h1>Вход</h1>
+    </div>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        @Html.EditorForModel()
+        <br />
+        <input class="btn btn-inverse" type="submit" value="Log In" />
+    }
+</div>

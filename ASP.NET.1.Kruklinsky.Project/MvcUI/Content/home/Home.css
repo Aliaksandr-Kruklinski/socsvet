@@ -1,0 +1,216 @@
+﻿body {
+    min-width: 700px;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(images\\background.jpg);
+}
+
+
+Div.subject {
+    float: left;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+Div.test {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align:center;
+}
+    Div.test h1{
+        text-align:center;
+    }
+    Div.test textarea {
+        text-indent: 20px;
+        text-align:justify;
+        margin: 0px 5% 0px 5%;
+        width: 90%;
+        max-width: 90%;
+        max-height: 200px;
+    }
+
+Div.test input{
+    margin-top:10%;
+}
+
+
+Div.testing {
+
+}
+    Div.testing h1{
+        text-align:center;
+    }
+    Div.testing div.question{
+    }
+        Div.testing div.answers{
+            margin-left:5%;
+    }
+    Div.testing textarea {
+        text-indent: 20px;
+        text-align:justify;
+        margin: 0px 5% 0px 5%;
+        width: 90%;
+        max-width: 90%;
+        max-height: 200px;
+    }
+
+    input.check-box {
+        margin-right: 5px;
+    }
+
+
+    Div#user-info {
+        width: 205px;
+    }
+
+    Div.Avatar {
+    width: 205px;
+    text-align:right;
+}
+    img.Avatar {
+        display: inline-block;
+        width: 205px;
+        height: 205px;
+        overflow: hidden;
+        border: 5px solid #353535;
+        background: #FFFFFF;
+        outline: 1px solid #CCCCCC;
+    }
+
+    DIV#UserName {
+        text-align: left;
+    }
+
+a.first-name {
+       text-decoration:none;
+}
+a.second-name {
+       text-decoration:none;
+}
+a.birthday {
+   text-decoration:none;
+}
+
+Div#user-info-additional {
+    text-align: right;
+}
+
+DIV#Results {
+    width: 420px;
+    float: right;
+}
+
+DIV#Messages {
+    margin-top: 10px;
+
+}
+
+
+DIV.PageLinks {
+    text-align: right;
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+    DIV.PageLinks A {
+        font-size: 1.1em;
+        color: #666;
+        text-decoration: none;
+        padding: 0 .4em 0 .4em;
+    }
+        DIV.PageLinks A:hover {
+            background-color: Silver;
+        }
+        DIV.PageLinks A.selected {
+            background-color: #353535;
+            color: White;
+        }
+
+Div.Message {
+    padding: 10px;
+}
+    Div.Message Div.SenderIcon {
+      display:inline-block;
+    }
+    Div.Message Div.Time {
+      font-size: 70%;
+           
+    }
+    Div.Message Div.Text {
+          display:inline-block;
+        text-align: justify;
+    }
+
+
+    Div.Friend {
+    padding: 10px;
+    display: inline-block;
+    font-size: 75%;
+}
+
+
+#wrap{
+		display: none;
+		opacity: 0.8;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+		background-color: rgba(1, 1, 1, 0.725);
+		z-index: 100;
+		overflow: auto;
+	}
+#window{
+		width: 50%;
+		height: 65%;
+		margin: 50px auto;
+		display: none;
+		background: #fff;
+		z-index: 200;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+	}
+.close{
+		margin-left: 364px;
+		margin-top: 4px;
+		cursor: pointer;
+	}
+
+
+.imgareaselect-border1 {
+	background: url(border-v.gif) repeat-y left top;
+}
+.imgareaselect-border2 {
+    background: url(border-h.gif) repeat-x left top;
+}
+.imgareaselect-border3 {
+    background: url(border-v.gif) repeat-y right top;
+}
+.imgareaselect-border4 {
+    background: url(border-h.gif) repeat-x left bottom;
+}
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.imgareaselect-handle {
+    background-color: #fff;
+    border: solid 1px #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+.imgareaselect-outer {
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+.imgareaselect-selection {  
+}
