@@ -9,6 +9,7 @@ using System.Web.Security;
 
 namespace MvcUI.Controllers
 {
+    [Authorize]
     public class HelperController : Controller
     {
         private IUserQueryService userQueryService;
@@ -20,9 +21,10 @@ namespace MvcUI.Controllers
 
         public ActionResult Index(string query)
         {
+            var userId = Membership.GetUser(this.User.Identity.Name).ProviderUserKey.ToString();
             var users = userQueryService.GetAllUsers();
             var validUsers = users.Select(u => this.userQueryService.GetUser(u.Id)).ToList()
-                .Where(u => u.IsApproved)
+                .Where(u => u.IsApproved && u.Id != userId)
                 .Where(u => u.Roles != null && u.Roles.Count() != 0);
 
             var model = validUsers.Select(u => new Guest { Profile = u.Profile.ToWeb(), UserId = u.Id }).ToList();

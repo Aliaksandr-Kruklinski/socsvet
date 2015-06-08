@@ -10,6 +10,7 @@ using MvcUI.Providers;
 
 namespace MvcUI.Controllers
 {
+    [Authorize]
     public class WallController : Controller
     {
         public int PageSize = 10;
@@ -87,6 +88,11 @@ namespace MvcUI.Controllers
                 if (imageId != -1)
                 {
                     userAvatar = user.Images.Where(i => i.Id == imageId).First().ToWeb();
+                }
+                else
+                {
+                    var defaultUser = userQueryService.GetUserByEmail("apsedianm@gmail.com");
+                    return GetAvatar(defaultUser.Id);
                 }
                 if (userAvatar != null)
                 {

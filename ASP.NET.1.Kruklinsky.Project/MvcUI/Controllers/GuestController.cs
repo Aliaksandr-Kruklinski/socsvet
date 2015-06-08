@@ -9,6 +9,7 @@ using System.Web.Security;
 
 namespace MvcUI.Controllers
 {
+    [Authorize]
     public class GuestController : Controller
     {
         private IUserQueryService userQueryService;
@@ -36,7 +37,7 @@ namespace MvcUI.Controllers
                 var model = new Guest { Profile = user.Profile.ToWeb() };
                 model.UserId = userId;
                 ViewBag.SelectedPage = page;
-                if (model.Profile.Birthday.Value.Year.CompareTo(DateTime.Today.Year - 100) <= 0) model.Profile.Birthday = null;
+                if ( !model.Profile.Birthday.HasValue || model.Profile.Birthday.Value.Year.CompareTo(DateTime.Today.Year - 100) <= 0) model.Profile.Birthday = null;
                 return View(model);
             }
             return RedirectToAction("Index", "Home", new { page = 1 });
