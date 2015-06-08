@@ -41,15 +41,12 @@
     </div>
     <div id="Messages">
         @if (User.Identity.IsAuthenticated)
-{
-    using (Html.BeginForm())
-    {
-
-
-        <input type="text" id="FirstName" name="FirstName" style="width:50%;" />
-
-                        <input class="btn btn-inverse" type="submit" value="Отправить" />
-    }
+        {
+            using (Html.BeginForm())
+            {
+                @Html.EditorFor(m => m.Profile.FirstName, new { style = "width:50%;" })            
+                <input class="btn btn-inverse" type="submit" value="Отправить" />
+            }
         }
         @{
             Html.RenderAction(
