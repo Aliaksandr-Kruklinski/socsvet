@@ -49,7 +49,7 @@
     <div id="Messages">
         @using (Html.BeginForm())
         {
-                <input type="text" name="FirstName" style="width:50%;" value="@Model.FirstName" />
+                <input type="text" name="FirstName" style="width:50%;" value="@Model.FirstName, " />
         }
         @{
             Html.RenderAction(
