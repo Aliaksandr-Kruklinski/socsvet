@@ -47,3 +47,4 @@ F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\SqlSe
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\SqlServerTypes\x86\msvcr100.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
 F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\Azure socsvet\socsvet\ASP.NET.1.Kruklinsky.Project\Domain\ORM\obj\Debug\ORM.csprojResolveAssemblyReference.cache
