@@ -40,6 +40,14 @@
         </div>
     </div>
     <div id="Messages">
+        @if (User.Identity.IsAuthenticated)
+        {
+            using (Html.BeginForm())
+            {
+                @Html.EditorFor(m => m.Profile.FirstName)
+                <input class="btn btn-inverse" type="submit" value="Отправить" />
+            }
+        }
         @{
             Html.RenderAction(
                  "List",
@@ -51,14 +59,6 @@
                      page = ViewBag.SelectedPage
                  }
             );
-        }
-        @if(User.Identity.IsAuthenticated)
-        { 
-            using (Html.BeginForm())
-            {
-                @Html.EditorFor(m => m.Profile.FirstName)
-    <input class="btn btn-inverse" type="submit" value="Отправить" />
-            }
         }
     </div>
 </div>

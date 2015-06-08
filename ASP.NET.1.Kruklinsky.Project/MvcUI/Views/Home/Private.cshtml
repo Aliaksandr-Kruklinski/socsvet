@@ -18,6 +18,11 @@
 
 <div id="Wall">
     <div id="Messages">
+        @using (Html.BeginForm())
+        {
+            @Html.EditorFor(m => m.FirstName)
+            <input class="btn btn-inverse" type="submit" value="Отправить" />
+        }
         @{
             Html.RenderAction(
                  "PrivateList",
@@ -29,11 +34,6 @@
                      page = ViewBag.SelectedPage
                  }
             );
-        }
-        @using (Html.BeginForm())
-        {
-            @Html.EditorFor(m => m.FirstName)
-    <input class="btn btn-inverse" type="submit" value="Отправить" />
         }
     </div>
 </div>
