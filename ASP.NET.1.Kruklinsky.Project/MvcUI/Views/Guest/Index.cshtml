@@ -44,8 +44,7 @@
         {
             using (Html.BeginForm())
             {
-                @Html.EditorFor(m => m.Profile.FirstName, new { style = "width:50%;" })            
-                <input class="btn btn-inverse" type="submit" value="Отправить" />
+                <input type="text" name="Profile.FirstName" style="width:50%;" value="@Model.Profile.FirstName" />
             }
         }
         @{

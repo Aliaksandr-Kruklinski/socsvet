@@ -49,8 +49,7 @@
     <div id="Messages">
         @using (Html.BeginForm())
         {
-            @Html.EditorFor(m => m.FirstName)
-            <input class="btn btn-inverse" type="submit" value="Отправить" />
+                <input type="text" name="FirstName" style="width:50%;" value="@Model.FirstName" />
         }
         @{
             Html.RenderAction(
