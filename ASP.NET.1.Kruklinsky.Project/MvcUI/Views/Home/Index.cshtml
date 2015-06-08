@@ -47,6 +47,11 @@
         </div>
     </div>
     <div id="Messages">
+        @using (Html.BeginForm())
+        {
+            @Html.EditorFor(m => m.FirstName)
+            <input class="btn btn-inverse" type="submit" value="Отправить" />
+        }
         @{
             Html.RenderAction(
                  "List",
@@ -58,11 +63,6 @@
                      page = ViewBag.SelectedPage
                  }
             );
-        }
-        @using (Html.BeginForm())
-        {
-            @Html.EditorFor(m => m.FirstName)
-    <input class="btn btn-inverse" type="submit" value="Отправить" />
         }
     </div>
 </div>
