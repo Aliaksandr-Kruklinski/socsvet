@@ -12,10 +12,10 @@ namespace MvcUI.Models
         public int Id { get; set; }
 
         [Required]
-        [Display(Name = "Subject name")]
+        [Display(Name = "Тема")]
         public string Name { get; set; }
 
-        [Display(Name = "Description")]
+        [Display(Name = "Описание")]
         public string Description { get; set; }
     }
 }
