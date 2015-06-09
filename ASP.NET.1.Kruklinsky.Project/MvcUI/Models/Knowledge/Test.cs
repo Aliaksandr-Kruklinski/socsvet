@@ -16,14 +16,14 @@ namespace MvcUI.Models
         public int SubjectId { get; set; }
 
         [Required]
-        [Display(Name = "Test name")]
+        [Display(Name = "Название")]
         public string Name { get; set; }
 
         [Required]
-        [Display(Name = "Topic")]
+        [Display(Name = "Тема")]
         public string Topic { get; set; }
 
-        [Display(Name = "Description")]
+        [Display(Name = "Описание")]
         public string Description { get; set; }
     }
 }
