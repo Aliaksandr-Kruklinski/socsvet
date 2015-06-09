@@ -21,15 +21,15 @@
     <div class="test-editor">
         @using (Html.BeginForm("EditTest", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
         {
-            <label>Edit test</label>
+            <label>Редактирование теста</label>
             @Html.EditorFor(m => m.Test);
             <br/>
-            <input class="btn btn-inverse" type="submit" value="Update" />
+            <input class="btn btn-inverse" type="submit" value="Обновить" />
         }
     </div>
 
     <div class="testQuestions">
-        @Html.TestQuestions(Model.Questions,Model.Test.Id,"Test questions")
+        @Html.TestQuestions(Model.Questions,Model.Test.Id,"Вопросы теста")
     </div>
 
     <div class="question-editor-add">

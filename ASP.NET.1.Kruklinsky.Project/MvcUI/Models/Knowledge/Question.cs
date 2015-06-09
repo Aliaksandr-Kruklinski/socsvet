@@ -20,21 +20,21 @@ namespace MvcUI.Models
         public int TestId { get; set; }
 
         [Required]
-        [Display(Name = "Text")]
+        [Display(Name = "Текст")]
         public string Text { get; set; }
 
         [Required]
-        [Display(Name = "Topic")]
+        [Display(Name = "Подтема")]
         public string Topic { get; set; }
 
         [Required]
-        [Display(Name = "Question level")]
+        [Display(Name = "Уровень")]
         public int Level { get; set; }
 
-        [Display(Name = "Example")]
+        [Display(Name = "Пример")]
         public string Example { get; set; }
 
-        [Display(Name = "Description")]
+        [Display(Name = "Описание")]
         public string Description { get; set; }
     }
 }
