@@ -15,7 +15,7 @@ namespace MvcUI.Models
         public int QuestionId { get; set; }
 
         [Required]
-        [Display(Name = "Text")]
+        [Display(Name = "Текст")]
         public string Text { get; set; }
     }
 }

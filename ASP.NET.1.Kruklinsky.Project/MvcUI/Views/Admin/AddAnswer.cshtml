@@ -7,9 +7,9 @@
 <div class="stroke">
     @using (Html.BeginForm("AddAnswer", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
-        <label>Add new answer</label>
+        <label>Добавить вариант ответа</label>
         @Html.EditorForModel();
         <br />
-        <input class="btn btn-inverse" type="submit" value="Add" />
+        <input class="btn btn-inverse" type="submit" value="Добавить" />
     }
 </div>
