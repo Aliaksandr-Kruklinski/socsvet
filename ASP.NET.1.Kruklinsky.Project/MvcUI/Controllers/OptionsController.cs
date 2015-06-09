@@ -30,8 +30,8 @@ namespace MvcUI.Controllers
         public ActionResult Index()
         {
             var model = HttpContext.Profile.ToWeb();
-            if (string.IsNullOrEmpty(model.FirstName)) model.FirstName = "First name";
-            if (string.IsNullOrEmpty(model.SecondName)) model.SecondName = "Second Name";
+            if (string.IsNullOrEmpty(model.FirstName)) model.FirstName = "Имя";
+            if (string.IsNullOrEmpty(model.SecondName)) model.SecondName = "Фамилия";
             if (model.Birthday.Value.Year.CompareTo(DateTime.Today.Year - 100) <= 0) model.Birthday = null;
             return View(model);
         }

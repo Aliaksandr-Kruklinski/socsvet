@@ -12,8 +12,8 @@
 
 @{
     ViewBag.Title = String.Format("{0} {1}", 
-        Model.FirstName == null ? "FirstName" : Model.FirstName, 
-        Model.SecondName == null ? "SecondName" : Model.SecondName);
+        Model.FirstName == null ? "Имя" : Model.FirstName, 
+        Model.SecondName == null ? "Фамилия" : Model.SecondName);
 }
 
 @using (Html.BeginForm("Index", "Options", FormMethod.Post, new { enctype = "multipart/form-data" })) {
@@ -23,13 +23,13 @@
             @Html.EditorFor(m => m.Birthday)
     </div>
     <div id="AvatarEditor">
-        <a>Avatar: </a>
+        <a>Аватар: </a>
         <div id="Avatar">
             <img id="td" class="Avatar" src="@Url.Action("GetAvatar", "Options")" />
             <input class="stroke" type="file" id="files" name="Image" onchange="show('block')" />
         </div>
     </div>
-    <input id="Save" type="submit" value="Save" />
+    <input class="btn btn-inverse" id="Save" type="submit" value="Сохранить" />
      <input type="hidden" name="x1" value="" />
   <input type="hidden" name="y1" value="" />
   <input type="hidden" name="x2" value="" />
