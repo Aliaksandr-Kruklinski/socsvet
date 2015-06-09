@@ -22,6 +22,6 @@
         <h1>@Model.Name: @Model.Topic</h1>
         <textarea  readonly rows="5" maxlength="200" >@Model.Description</textarea>
         <br />
-        <input type="button" class="btn btn-inverse" value="Start" onclick="location.href='@Url.Action("StartTest","Test", new {testId = Model.Id})'" />
+        <input type="button" class="btn btn-inverse" value="Пройти" onclick="location.href='@Url.Action("StartTest","Test", new {testId = Model.Id})'" />
     </div>
 </div>
